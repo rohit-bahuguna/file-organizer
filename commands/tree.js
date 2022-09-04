@@ -7,7 +7,7 @@ function treeFn(dirPath) {
     if (dirPath === undefined) {
         // console.log('kindly provide directory path');
 
-        treeHalper(process.cwd())
+        treeHalper(process.cwd(), "")
         return;
     } else {
         let doesExist = fs.existsSync(dirPath);

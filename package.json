@@ -1,15 +1,22 @@
 {
   "name": "file-organizer",
   "version": "1.0.0",
-  "description": "",
+  "description": "file organizer by Rohit Bahuguna",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohit-bahuguna/file-organizer.git"
+  },
+  "author": "Rohit Bahuguna",
   "license": "ISC",
   "bin": {
     "rohit": "main.js"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/rohit-bahuguna/file-organizer/issues"
+  },
+  "homepage": "https://github.com/rohit-bahuguna/file-organizer#readme"
 }
