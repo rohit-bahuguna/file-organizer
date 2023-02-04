@@ -1,6 +1,5 @@
-
 function helpFn() {
-    console.log(`
+	console.log(`
     List of All the Commands:
           ==>  rohit tree <directoryPath>
           ==>  rohit org <directoryPath>
@@ -8,4 +7,4 @@ function helpFn() {
     `);
 }
 
-module.exports = helpFn 
+module.exports = helpFn;
